@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/supersonic/proprietary/01_qcomm_omx.cfg:/system/etc/01_qcomm_omx.cfg \
     vendor/htc/supersonic/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
-    vendor/htc/supersonic/proprietary/Sprint_VVM.apk:/system/app/Sprint_VVM.apk \
+    vendor/htc/supersonic/proprietary/Sprint_VVM.apk:/data/app/Sprint_VVM.apk \
     vendor/htc/supersonic/proprietary/bootanimation.zip:/system/media/bootanimation.zip \
     vendor/htc/supersonic/proprietary/GAPPS/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
     vendor/htc/supersonic/proprietary/GAPPS/com.google.android.maps.jar:/system/framework/com.google.android.maps.jar \
