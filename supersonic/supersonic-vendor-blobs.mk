@@ -108,5 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/GAPPS/Twitter.apk:/system/app/Twitter.apk \
     vendor/htc/supersonic/proprietary/GAPPS/Vending.apk:/system/app/Vending.apk \
     vendor/htc/supersonic/proprietary/GAPPS/VoiceSearch.apk:/system/app/VoiceSearch.apk \
-    vendor/htc/supersonic/proprietary/GAPPS/YouTube.apk:/system/app/YouTube.apk 
+    vendor/htc/supersonic/proprietary/GAPPS/YouTube.apk:/system/app/YouTube.apk \
+    vendor/htc/supersonic/proprietary/Superuser.apk:/system/app/Superuser.apk 
 
