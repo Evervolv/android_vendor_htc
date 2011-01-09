@@ -105,6 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/GAPPS/Vending.apk:/system/app/Vending.apk \
     vendor/htc/inc/proprietary/GAPPS/VoiceSearch.apk:/system/app/VoiceSearch.apk \
     vendor/htc/inc/proprietary/GAPPS/YouTube.apk:/system/app/YouTube.apk \
+    vendor/htc/inc/proprietary/GAPPS/Microbes.apk:/system/app/Microbes.apk \
+    vendor/htc/inc/proprietary/GAPPS/libmicrobes_jni.so:/system/lib/libmicrobes_jni.so \
+
     vendor/htc/inc/proprietary/Superuser.apk:/system/app/Superuser.apk 
 
 
