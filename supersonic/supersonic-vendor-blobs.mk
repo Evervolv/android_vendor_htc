@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libcamera.so:obj/lib/libcamera.so
 
-# All the blobs necessary for passion
+# All the blobs necessary for supersonic
 PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/akmd:/system/bin/akmd \
     vendor/htc/supersonic/proprietary/snd:/system/bin/snd \
@@ -69,46 +69,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/supersonic/proprietary/01_qcomm_omx.cfg:/system/etc/01_qcomm_omx.cfg \
     vendor/htc/supersonic/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
-    vendor/htc/supersonic/proprietary/Sprint_VVM.apk:/data/app/Sprint_VVM.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
-#    vendor/htc/supersonic/proprietary/GAPPS/com.google.android.maps.jar:/system/framework/com.google.android.maps.jar \
-#    vendor/htc/supersonic/proprietary/GAPPS/features.xml:/system/etc/permissions/features.xml \
-#    vendor/htc/supersonic/proprietary/GAPPS/libspeech.so:/system/lib/libspeech.so \
-#    vendor/htc/supersonic/proprietary/GAPPS/libvoicesearch.so:/system/lib/libvoicesearch.so \
-#    vendor/htc/supersonic/proprietary/GAPPS/CarHomeGoogle.apk:/system/app/CarHomeGoogle.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/CarHomeLauncher.apk:/system/app/CarHomeLauncher.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Facebook.apk:/system/app/Facebook.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GenieWidget.apk:/system/app/GenieWidget.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Gmail.apk:/system/app/Gmail.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleBackupTransport.apk:/system/app/GoogleBackupTransport.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleCalendarSyncAdapter.apk:/system/app/GoogleCalendarSyncAdapter.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleContactsSyncAdapter.apk:/system/app/GoogleContactsSyncAdapter.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleFeedback.apk:/system/app/GoogleFeedback.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GooglePartnerSetup.apk:/system/app/GooglePartnerSetup.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleQuickSearchBox.apk:/system/app/GoogleQuickSearchBox.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/googlevoice.apk:/system/app/googlevoice.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/HtcCopyright.apk:/system/app/HtcCopyright.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/HtcEmailPolicy.apk:/system/app/HtcEmailPolicy.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/HtcSettings.apk:/system/app/HtcSettings.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/kickback.apk:/system/app/kickback.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/LatinImeTutorial.apk:/system/app/LatinImeTutorial.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Maps.apk:/system/app/Maps.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/MarketUpdater.apk:/system/app/MarketUpdater.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/MediaUploader.apk:/system/app/MediaUploader.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/NetworkLocation.apk:/system/app/NetworkLocation.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/OneTimeInitializer.apk:/system/app/OneTimeInitializer.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/PassionQuickOffice.apk:/system/app/PassionQuickOffice.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/SetupWizard.apk:/system/app/SetupWizard.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/soundback.apk:/system/app/soundback.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Street.apk:/system/app/Street.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Talk.apk:/system/app/Talk.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/talkback.apk:/system/app/talkback.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Twitter.apk:/system/app/Twitter.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Vending.apk:/system/app/Vending.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/VoiceSearch.apk:/system/app/VoiceSearch.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/YouTube.apk:/system/app/YouTube.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/Microbes.apk:/system/app/Microbes.apk \
-#    vendor/htc/supersonic/proprietary/GAPPS/libmicrobes_jni.so:/system/lib/libmicrobes_jni.so \
-    vendor/htc/supersonic/proprietary/Superuser.apk:/system/app/Superuser.apk 
+    vendor/htc/supersonic/proprietary/Sprint_VVM.apk:/data/app/Sprint_VVM.apk 
 
