@@ -18,14 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libcamera.so:obj/lib/libcamera.so
 
-# All the blobs necessary for supersonic
+# All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/akmd:/system/bin/akmd \
-    vendor/htc/supersonic/proprietary/snd:/system/bin/snd \
     vendor/htc/supersonic/proprietary/snd8k:/system/bin/snd8k \
     vendor/htc/supersonic/proprietary/sound8k:/system/bin/sound8k \
-    vendor/htc/supersonic/proprietary/spkamp:/system/bin/spkamp \
-    vendor/htc/supersonic/proprietary/wifitools:/system/bin/wifitools \
     vendor/htc/supersonic/proprietary/AdieHWCodecSetting.csv:/system/etc/AdieHWCodecSetting.csv \
     vendor/htc/supersonic/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/supersonic/proprietary/TPA2018.csv:/system/etc/TPA2018.csv \
@@ -36,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/htc/supersonic/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
     vendor/htc/supersonic/proprietary/com.sprint.hardware.twincamdevice.xml:/system/etc/permissions/com.sprint.hardware.twincamdevice.xml \
-    vendor/htc/supersonic/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/supersonic/proprietary/com.sprint.hardware.twinCamDevice.jar:/system/framework/com.sprint.hardware.twinCamDevice.jar \
     vendor/htc/supersonic/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/supersonic/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -48,12 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/supersonic/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/supersonic/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/supersonic/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/supersonic/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/supersonic/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
-    vendor/htc/supersonic/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
-    vendor/htc/supersonic/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/htc/supersonic/proprietary/libspeech.so:/system/lib/libspeech.so \
     vendor/htc/supersonic/proprietary/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
     vendor/htc/supersonic/proprietary/apph:/system/bin/apph \
     vendor/htc/supersonic/proprietary/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
@@ -66,8 +56,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
     vendor/htc/supersonic/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/supersonic/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
-    vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
-    vendor/htc/supersonic/proprietary/01_qcomm_omx.cfg:/system/etc/01_qcomm_omx.cfg \
-    vendor/htc/supersonic/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
-    vendor/htc/supersonic/proprietary/Sprint_VVM.apk:/data/app/Sprint_VVM.apk 
-
+    vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml
