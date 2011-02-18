@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/speedy/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
