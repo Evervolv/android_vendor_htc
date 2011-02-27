@@ -62,4 +62,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/speedy/proprietary/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
     vendor/htc/speedy/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
-    vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml
+    vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
+    vendor/htc/speedy/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
+    vendor/htc/speedy/proprietary/ipd:/system/bin/ipd \
+    vendor/htc/speedy/proprietary/ip:/system/bin/ip \
+    vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
+    vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar 
