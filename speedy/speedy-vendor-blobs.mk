@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/speedy/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
@@ -64,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/speedy/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
-    vendor/htc/speedy/proprietary/ipd:/system/bin/ipd \
+    vendor/htc/speedy/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
-    vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
-    vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar 
+    vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
