@@ -18,5 +18,5 @@
 
 <!-- switch to all_apps_3d on devices that support RenderScript -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/all_apps_2d" />
+    <include layout="@layout/all_apps_3d" />
 </merge>
