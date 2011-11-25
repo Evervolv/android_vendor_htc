@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/supersonic/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/supersonic/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/supersonic/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/supersonic/proprietary/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
     vendor/htc/supersonic/proprietary/apph:/system/bin/apph \
     vendor/htc/supersonic/proprietary/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
