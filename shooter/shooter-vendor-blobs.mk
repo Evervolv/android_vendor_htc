@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/shooter/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/shooter/proprietary/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/shooter/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/shooter/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/shooter/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/shooter/proprietary/libidl.so:/system/lib/libidl.so \
