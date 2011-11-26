@@ -1,0 +1,18 @@
+#! /system/bin/sh
+
+cat > /data/misc/dhcp/udhcpd.conf << EOF
+interface	usb0
+start	192.168.100.100
+end	192.168.100.200
+#opt	dns	192.168.100.254
+opt	subnet	255.255.255.0
+#opt	router	192.168.100.254
+#opt	domain	local
+opt	lease	864000
+EOF
+
+ifconfig usb0 ip 192.168.100.254 mask 255.255.255.0 up
+setprop ctl.start udhcpd
+echo 1 > /sys/devices/virtual/usb_composite/rndis/enable
+setprop ctl.start androidvncserver
+
