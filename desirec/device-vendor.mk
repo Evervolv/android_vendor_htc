@@ -36,13 +36,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/desirec/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
     vendor/htc/desirec/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
 
-ifdef WITH_WINDOWS_MEDIA
-PRODUCT_COPY_FILES += \
-    vendor/htc/desirec/proprietary/libomx_wmadec_sharedlibrary.so:system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/desirec/proprietary/libomx_wmvdec_sharedlibrary.so:system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/desirec/proprietary/libpvasfcommon.so:system/lib/libpvasfcommon.so \
-    vendor/htc/desirec/proprietary/libpvasflocalpbreg.so:system/lib/libpvasflocalpbreg.so \
-    vendor/htc/desirec/proprietary/libpvasflocalpb.so:system/lib/libpvasflocalpb.so \
-    vendor/htc/desirec/proprietary/pvasflocal.cfg:system/etc/pvasflocal.cfg
-endif
-
