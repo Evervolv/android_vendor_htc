@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/speedy/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/speedy/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/speedy/proprietary/libgsl.so:/system/lib/gsl.so \
     vendor/htc/speedy/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/speedy/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/speedy/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
