@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/mecha/proprietary/libdsm.so:/system/lib/libdsm.so \
     vendor/htc/mecha/proprietary/libgemini.so:/system/lib/libgemini.so \
+    vendor/htc/mecha/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/mecha/proprietary/libgsdi_exp.so:/system/lib/libgsdi_exp.so \
     vendor/htc/mecha/proprietary/libgstk_exp.so:/system/lib/libgstk_exp.so \
     vendor/htc/mecha/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
