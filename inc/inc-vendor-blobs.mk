@@ -47,7 +47,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/inc/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/inc/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/inc/proprietary/incrediblec-keypad.kcm.bin:/system/usr/keychars/incrediblec-keypad.kcm.bin \
-    vendor/htc/inc/proprietary/h2w_headset.kl:/system/usr/keylayout/h2w_headset.kl \
-    vendor/htc/inc/proprietary/incrediblec-keypad.kl:/system/usr/keylayout/incrediblec-keypad.kl \
     vendor/htc/inc/proprietary/Incredible_C_20100921_VZW_Neo_324016_v10_default.acdb:/system/etc/firmware/Incredible_C_20100921_VZW_Neo_324016_v10_default.acdb
