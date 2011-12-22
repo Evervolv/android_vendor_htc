@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/shooter/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/shooter/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/shooter/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/shooter/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/shooter/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
     vendor/htc/shooter/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
