@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libidl.so:/system/lib/libidl.so \
     vendor/htc/shooter/proprietary/libril.so:/system/lib/libril.so \
     vendor/htc/shooter/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
-    vendor/htc/shooter/proprietary/liboverlay.so:/system/lib/liboverlay.so \
     vendor/htc/shooter/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/shooter/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/shooter/proprietary/libmpl.so:/system/lib/libmpl.so \
@@ -89,11 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
-    vendor/htc/shooter/proprietary/gralloc.msm8660.so:/system/lib/hw/gralloc.msm8660.so \
-    vendor/htc/shooter/proprietary/copybit.msm8660.so:/system/lib/hw/copybit.msm8660.so \
     vendor/htc/shooter/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
-    vendor/htc/shooter/proprietary/gralloc.default.so:/system/lib/hw/gralloc.default.so \
     vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
-    vendor/htc/shooter/proprietary/overlay.default.so:/system/lib/hw/overlay.default.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/supersonic/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
