@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/libril.so:obj/lib/libril.so
 
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
