@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/shooter/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/shooter/proprietary/libidl.so:/system/lib/libidl.so \
-    vendor/htc/shooter/proprietary/libril.so:/system/lib/libril.so \
     vendor/htc/shooter/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/shooter/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/shooter/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
