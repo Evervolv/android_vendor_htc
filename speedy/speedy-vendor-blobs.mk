@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
     vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/speedy/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/speedy/proprietary/rmt_storage:/system/bin/rmt_storage \
