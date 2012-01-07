@@ -52,19 +52,21 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/usbnet:/system/bin/usbnet \
     vendor/htc/shooter/proprietary/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/shooter/proprietary/agps_rm:/system/etc/agps_rm \
+    vendor/htc/shooter/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/shooter/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/shooter/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/shooter/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/shooter/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/shooter/proprietary/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/shooter/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/shooter/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
-    vendor/htc/shooter/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
+    vendor/htc/shooter/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/shooter/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/libacdbloader.so:/system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libacdbmapper.so:/system/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/shooter/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
     vendor/htc/shooter/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/shooter/proprietary/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/shooter/proprietary/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/libdll.so:/system/lib/libdll.so \
@@ -89,4 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
     vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
-    vendor/htc/supersonic/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
+    vendor/htc/shooter/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
+#    vendor/htc/shooter/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
+#    vendor/htc/shooter/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
+#    vendor/htc/shooter/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
