@@ -18,8 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/ruby/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/ruby/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/htc/ruby/proprietary/lib/libril.so:obj/lib/libril.so
 
 # All the blobs necessary for ruby
@@ -71,12 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ruby/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/ruby/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/ruby/proprietary/lib/hw/copybit.msm8660.so:/system/lib/hw/copybit.msm8660.so \
     vendor/htc/ruby/proprietary/lib/hw/gps.ruby.so:/system/lib/hw/gps.ruby.so \
-    vendor/htc/ruby/proprietary/lib/hw/gralloc.default.so:/system/lib/hw/gralloc.default.so \
-    vendor/htc/ruby/proprietary/lib/hw/gralloc.msm8660.so:/system/lib/hw/gralloc.msm8660.so \
     vendor/htc/ruby/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
-    vendor/htc/ruby/proprietary/lib/hw/overlay.default.so:/system/lib/hw/overlay.default.so \
     vendor/htc/ruby/proprietary/lib/hw/sensors.ruby.so:/system/lib/hw/sensors.ruby.so \
     vendor/htc/ruby/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/ruby/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
@@ -114,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/ruby/proprietary/lib/libOmxVenc.so:/system/lib/libOmxVenc.so \
     vendor/htc/ruby/proprietary/lib/liboncrpc.so:/system/lib/liboncrpc.so \
-    vendor/htc/ruby/proprietary/lib/liboverlay.so:/system/lib/liboverlay.so \
     vendor/htc/ruby/proprietary/lib/libpbmlib.so:/system/lib/libpbmlib.so \
     vendor/htc/ruby/proprietary/lib/libpbmlib_fusion.so:/system/lib/libpbmlib_fusion.so \
     vendor/htc/ruby/proprietary/lib/libpdapi.so:/system/lib/libpdapi.so \
