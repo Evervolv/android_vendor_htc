@@ -16,9 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/ruby/proprietary/lib/libril.so:obj/lib/libril.so
+    vendor/htc/ruby/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so
 
 # All the blobs necessary for ruby
 PRODUCT_COPY_FILES += \
@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/ti_hci_drv.ko:/system/etc/ti_hci_drv.ko \
     vendor/htc/ruby/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
     vendor/htc/ruby/proprietary/vpimg:/system/etc/vpimg \
+    vendor/htc/ruby/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/ruby/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/ruby/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ruby/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/sensors.ruby.so:/system/lib/hw/sensors.ruby.so \
     vendor/htc/ruby/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/ruby/proprietary/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/ruby/proprietary/libauth.so:/system/lib/libauth.so \
     vendor/htc/ruby/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ruby/proprietary/libdiag.so:/system/lib/libdiag.so \
@@ -104,9 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/ruby/proprietary/liboem_rapi.so:/system/lib/liboem_rapi.so \
     vendor/htc/ruby/proprietary/liboem_rapi_fusion.so:/system/lib/liboem_rapi_fusion.so \
-    vendor/htc/ruby/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
-    vendor/htc/ruby/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/ruby/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
+    vendor/htc/ruby/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/ruby/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/ruby/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/ruby/proprietary/liboncrpc.so:/system/lib/liboncrpc.so \
     vendor/htc/ruby/proprietary/libpbmlib.so:/system/lib/libpbmlib.so \
     vendor/htc/ruby/proprietary/libpbmlib_fusion.so:/system/lib/libpbmlib_fusion.so \
