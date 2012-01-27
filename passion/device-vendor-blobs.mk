@@ -37,11 +37,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/passion/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/passion/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/passion/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-    vendor/htc/passion/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so
+    vendor/htc/passion/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
+    vendor/htc/passion/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/htc/passion/proprietary/liboemcamera.so:system/lib/liboemcamera.so
 #    vendor/htc/passion/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
 #    vendor/htc/passion/proprietary/mm-venc-omx-test:system/bin/mm-venc-omx-test \
 #    vendor/htc/passion/proprietary/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 #    vendor/htc/passion/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
 #    vendor/htc/passion/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
-#    vendor/htc/passion/proprietary/libcamera.so:system/lib/libcamera.so \
-#    vendor/htc/passion/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
