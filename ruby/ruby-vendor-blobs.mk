@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/akmd:/system/bin/akmd \
     vendor/htc/ruby/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/ruby/proprietary/bma150_usr:/system/bin/bma150_usr \
+    vendor/htc/ruby/proprietary/btipsd:/system/bin/btipsd \
+    vendor/htc/ruby/proprietary/ewtzmud:/system/bin/ewtzmud \
     vendor/htc/ruby/proprietary/charging:/system/bin/charging \
     vendor/htc/ruby/proprietary/dcvs:/system/bin/dcvs \
     vendor/htc/ruby/proprietary/dcvsd:/system/bin/dcvsd \
@@ -64,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/ti_hci_drv.ko:/system/etc/ti_hci_drv.ko \
     vendor/htc/ruby/proprietary/voicemail-conf.xml:/system/etc/voicemail-conf.xml \
     vendor/htc/ruby/proprietary/vpimg:/system/etc/vpimg \
+    vendor/htc/ruby/proprietary/uim:/system/xbin/uim \
     vendor/htc/ruby/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/ruby/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/ruby/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
