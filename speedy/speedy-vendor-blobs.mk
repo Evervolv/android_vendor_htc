@@ -16,37 +16,37 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/speedy/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+#    vendor/htc/speedy/proprietary/librpc.so:obj/lib/librpc.so
+#    vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
 
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
+    vendor/htc/speedy/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/htc/speedy/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/speedy/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
+    vendor/htc/speedy/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/speedy/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/speedy/proprietary/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/speedy/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/speedy/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/speedy/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/speedy/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/speedy/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
     vendor/htc/speedy/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/speedy/proprietary/akmd:/system/bin/akmd \
     vendor/htc/speedy/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/speedy/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/speedy/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/speedy/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/speedy/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/speedy/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/speedy/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
-    vendor/htc/speedy/proprietary/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/speedy/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/speedy/proprietary/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/speedy/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/speedy/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/speedy/proprietary/libgsl.so:/system/lib/gsl.so \
     vendor/htc/speedy/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/speedy/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/speedy/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
-    vendor/htc/speedy/proprietary/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/speedy/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/speedy/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
-    vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/speedy/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/speedy/proprietary/rmt_storage:/system/bin/rmt_storage \
@@ -69,4 +69,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/speedy/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
-    vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
+    vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/speedy/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/htc/speedy/proprietary/libmmipl.so:system/lib/libmmipl.so \
+    vendor/htc/speedy/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/htc/speedy/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/speedy/proprietary/libposteffect.so:system/lib/libposteffect.so \
+    vendor/htc/speedy/proprietary/record:/system/bin/record \
+    vendor/htc/speedy/proprietary/recordvideo:/system/bin/recordvideo \
+    vendor/htc/speedy/proprietary/libcameraface.so:/system/lib/libcameraface.so \
+    vendor/htc/speedy/proprietary/libcamerapp.so:/system/lib/libcamerapp.so
+#    vendor/htc/speedy/proprietary/gps.speedy.so:/system/lib/hw/gps.speedy.so \
+#    vendor/htc/speedy/proprietary/librpc.so:/system/lib/librpc.so
+#    vendor/htc/speedy/proprietary/libaudio.so:/system/lib/libaudio.so \
+#    vendor/htc/speedy/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
