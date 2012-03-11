@@ -15,7 +15,8 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+#    vendor/htc/ruby/proprietary/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for ruby
 PRODUCT_COPY_FILES += \
@@ -44,9 +45,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/wlan_cu:/system/bin/wlan_cu \
     vendor/htc/ruby/proprietary/uim:/system/xbin/uim \
     vendor/htc/ruby/proprietary/wireless_modem:/system/xbin/wireless_modem \
-    vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254
-#    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
-#    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd
+    vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254 \
+    vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
+    vendor/htc/ruby/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
+    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
+    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd
+
+#    vendor/htc/ruby/proprietary/ip:/system/bin/ip \
+#    vendor/htc/ruby/proprietary/ipd:/system/bin/ipd \
+#    vendor/htc/ruby/proprietary/wpa_supplicant:/system/bin/wpa_supplicant \
+#    vendor/htc/ruby/proprietary/wpa_cli:/system/bin/wpa_cli \
 
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/firmware.bin:/system/etc/wifi/firmware.bin \
@@ -155,9 +163,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
     vendor/htc/ruby/proprietary/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     vendor/htc/ruby/proprietary/libril_status.so:/system/lib/libril_status.so
-
-# We shouldnt need these
-#    vendor/htc/ruby/proprietary/ip:/system/bin/ip \
-#    vendor/htc/ruby/proprietary/ipd:/system/bin/ipd \
-#    vendor/htc/ruby/proprietary/wpa_supplicant:/system/bin/wpa_supplicant \
-#    vendor/htc/ruby/proprietary/wpa_cli:/system/bin/wpa_cli \
+#    vendor/htc/ruby/proprietary/libv8.so:system/lib/libv8.so
