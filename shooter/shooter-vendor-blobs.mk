@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/netsharing:/system/bin/netsharing \
     vendor/htc/shooter/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/shooter/proprietary/rild:/system/bin/rild \
     vendor/htc/shooter/proprietary/ser2net:/system/bin/ser2net \
     vendor/htc/shooter/proprietary/sound8x60:/system/bin/sound8x60 \
     vendor/htc/shooter/proprietary/load-modem.sh:/system/bin/load-modem.sh \
