@@ -88,9 +88,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/shooter/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
-    vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
-    vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
-#    vendor/htc/shooter/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-#    vendor/htc/shooter/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
-#    vendor/htc/shooter/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
