@@ -14,8 +14,13 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/ruby/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/ruby/proprietary/libaudio.so:obj/lib/libaudio.so \
+    vendor/htc/ruby/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+    vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ruby/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/htc/ruby/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
 #    vendor/htc/ruby/proprietary/libv8.so:obj/lib/libv8.so
 
 # All the blobs necessary for ruby
@@ -160,10 +165,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ruby/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/ruby/proprietary/libacdbloader.so:/system/lib/libacdbloader.so \
+    vendor/htc/ruby/proprietary/libacdbmapper.so:/system/lib/libacdbmapper.so \
+    vendor/htc/ruby/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
 
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
     vendor/htc/ruby/proprietary/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+    vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
     vendor/htc/ruby/proprietary/libril_status.so:/system/lib/libril_status.so
 
 # ??
