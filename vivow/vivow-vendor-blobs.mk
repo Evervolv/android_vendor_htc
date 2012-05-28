@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/vivow/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/vivow/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/vivow/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/htc/vivow/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/vivow/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vivow/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
