@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/passion/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/htc/passion/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/passion/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
+    vendor/htc/passion/proprietary/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/htc/passion/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/passion/proprietary/liboemcamera.so:system/lib/liboemcamera.so
 #    vendor/htc/passion/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
