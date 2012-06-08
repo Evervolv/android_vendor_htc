@@ -41,5 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/inc/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/inc/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/inc/proprietary/libqc-opt.so:/system/lib/libqc-opt.so \
     vendor/htc/inc/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/inc/proprietary/Incredible_C_20100921_VZW_Neo_324016_v10_default.acdb:/system/etc/firmware/Incredible_C_20100921_VZW_Neo_324016_v10_default.acdb
