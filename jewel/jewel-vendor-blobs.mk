@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/jewel/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/jewel/proprietary/bin/time_daemon:system/bin/time_daemon \
-  vendor/htc/jewel/proprietary/bin/vold:system/bin/vold \
   vendor/htc/jewel/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/jewel/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/jewel/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
