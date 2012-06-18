@@ -110,5 +110,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
-  vendor/htc/jewel/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
   vendor/htc/jewel/proprietary/lib/libv8.so:system/lib/libv8.so
