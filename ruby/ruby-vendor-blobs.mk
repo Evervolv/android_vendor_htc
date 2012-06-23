@@ -30,40 +30,44 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/akmd:system/bin/akmd \
     vendor/htc/ruby/proprietary/awb_camera:system/bin/awb_camera \
+    vendor/htc/ruby/proprietary/calibrator:system/bin/calibrator \
     vendor/htc/ruby/proprietary/charging:system/bin/charging \
+    vendor/htc/ruby/proprietary/dhcpcd:system/bin/dhcpcd \
+    vendor/htc/ruby/proprietary/ewtzmud:system/bin/ewtzmud \
     vendor/htc/ruby/proprietary/hdmid:system/bin/hdmid \
+    vendor/htc/ruby/proprietary/hostapd:system/bin/hostapd \
     vendor/htc/ruby/proprietary/htcbatt:system/bin/htcbatt \
     vendor/htc/ruby/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
-    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
+    vendor/htc/ruby/proprietary/ipd:system/bin/ipd \
+    vendor/htc/ruby/proprietary/iw:system/bin/iw \
+    vendor/htc/ruby/proprietary/initial_regdom.sh:system/bin/initial_regdom.sh \
     vendor/htc/ruby/proprietary/ks:system/bin/ks \
     vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
     vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/lsc_camera:system/bin/lsc_camera \
     vendor/htc/ruby/proprietary/mpdecision:system/bin/mpdecision \
+    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd \
     vendor/htc/ruby/proprietary/qcks:system/bin/qcks \
     vendor/htc/ruby/proprietary/qcks:root/system/bin/qcks \
     vendor/htc/ruby/proprietary/qmiproxy:system/bin/qmiproxy \
     vendor/htc/ruby/proprietary/qmuxd:system/bin/qmuxd \
+    vendor/htc/ruby/proprietary/ramdump-9K.sh:system/bin/ramdump-9K.sh \
+    vendor/htc/ruby/proprietary/ramdump2sd-9K.sh:system/bin/ramdump2sd-9K.sh \
+    vendor/htc/ruby/proprietary/rild:system/bin/rild \
     vendor/htc/ruby/proprietary/rmt_storage:system/bin/rmt_storage \
     vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254 \
     vendor/htc/ruby/proprietary/thermald:system/bin/thermald \
     vendor/htc/ruby/proprietary/uimqc:system/bin/uimqc \
+    vendor/htc/ruby/proprietary/wpa_cli:system/bin/wpa_cli \
+    vendor/htc/ruby/proprietary/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
+#    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
 
 # xbin
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/wireless_modem:system/xbin/wireless_modem \
-
-# These are not present in stock ics
-#    vendor/htc/ruby/proprietary/bma150_usr:system/bin/bma150_usr \
-#    vendor/htc/ruby/proprietary/btipsd:system/bin/btipsd \
-#    vendor/htc/ruby/proprietary/dcvs:system/bin/dcvs \
-#    vendor/htc/ruby/proprietary/dcvsd:system/bin/dcvsd \
-#    vendor/htc/ruby/proprietary/ser2net:system/bin/ser2net \
-#    vendor/htc/ruby/proprietary/sound8x60:system/bin/sound8x60 \
-#    vendor/htc/ruby/proprietary/wlan_cu:system/bin/wlan_cu \
 
 # etc/firmware
 PRODUCT_COPY_FILES += \
@@ -102,7 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/TPA2051_CFG_XC.csv:system/etc/TPA2051_CFG_XC.csv \
     vendor/htc/ruby/proprietary/vpimg:system/etc/vpimg
 
-# Sound Image
+# etc/soundimage
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/Sound_MFG.txt:system/etc/soundimage/Sound_MFG.txt \
     vendor/htc/ruby/proprietary/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
@@ -121,6 +125,46 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
     vendor/htc/ruby/proprietary/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
     vendor/htc/ruby/proprietary/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg
+
+# etc/wifi
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/hostapd.conf:system/etc/wifi/hostapd.conf \
+    vendor/htc/ruby/proprietary/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
+    vendor/htc/ruby/proprietary/p2p_supplicant_manual.conf:system/etc/wifi/p2p_supplicant_manual.conf \
+    vendor/htc/ruby/proprietary/TQS_D_1.7.ini:system/etc/wifi/TQS_D_1.7.ini \
+    vendor/htc/ruby/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+
+# etc/bluetooth
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/audio.conf:system/etc/bluetooth/audio.conf \
+    vendor/htc/ruby/proprietary/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
+    vendor/htc/ruby/proprietary/blacklist.conf:system/etc/bluetooth/blacklist.conf \
+    vendor/htc/ruby/proprietary/input.conf:system/etc/bluetooth/input.conf \
+    vendor/htc/ruby/proprietary/main.conf:system/etc/bluetooth/main.conf \
+    vendor/htc/ruby/proprietary/network.conf:system/etc/bluetooth/network.conf
+
+# etc/dhcpcd
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/dhcpcd-run-hooks:system/etc/dhcpcd-run-hooks \
+    vendor/htc/ruby/proprietary/dhcpcd.conf:system/etc/dhcpcd.conf \
+    vendor/htc/ruby/proprietary/20-dns.conf:system/etc/dhcpcd-hooks/20-dns.conf \
+    vendor/htc/ruby/proprietary/95-configured:system/etc/dhcpcd-hooks/95-configured
+
+# etc/iproute2
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/rt_tables:system/etc/iproute2/rt_tables
+
+# etc/ppp
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/ip-up-vpn:system/etc/ppp/ip-up-vpn
+
+# vendor/firmware
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+
+#
+# lib
+#
 
 # Adreno
 PRODUCT_COPY_FILES += \
@@ -145,7 +189,6 @@ PRODUCT_COPY_FILES += \
 
 # netmgrd
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/netmgrd:system/bin/netmgrd \
     vendor/htc/ruby/proprietary/libdiag.so:system/lib/libdiag.so \
     vendor/htc/ruby/proprietary/libdsutils.so:system/lib/libdsutils.so \
     vendor/htc/ruby/proprietary/libidl.so:system/lib/libidl.so \
@@ -155,28 +198,9 @@ PRODUCT_COPY_FILES += \
 
 # gyro
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/ewtzmud:system/bin/ewtzmud \
     vendor/htc/ruby/proprietary/libewtzmu2cali.so:system/lib/libewtzmu2cali.so \
     vendor/htc/ruby/proprietary/libpbmlib.so:system/lib/libpbmlib.so
 #    vendor/htc/ruby/proprietary/libpbmlib_fusion.so:system/lib/libpbmlib_fusion.so
-
-# wifi
-#PRODUCT_COPY_FILES += \
-#    vendor/htc/ruby/proprietary/tiap_loader:system/bin/tiap_loader \
-#    vendor/htc/ruby/proprietary/tiwlan_loader:system/bin/tiwlan_loader \
-#    vendor/htc/ruby/proprietary/kineto_gan.ko:system/lib/modules/kineto_gan.ko \
-#    vendor/htc/ruby/proprietary/st_drv.ko:system/etc/st_drv.ko \
-#    vendor/htc/ruby/proprietary/tiap_drv.ko:system/lib/modules/tiap_drv.ko \
-#    vendor/htc/ruby/proprietary/ti_hci_drv.ko:system/etc/ti_hci_drv.ko \
-#    vendor/htc/ruby/proprietary/tiwlan_drv.ko:system/lib/modules/tiwlan_drv.ko
-
-# etc/wifi
-PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/hostapd.conf:system/etc/wifi/hostapd.conf \
-    vendor/htc/ruby/proprietary/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
-    vendor/htc/ruby/proprietary/p2p_supplicant_manual.conf:system/etc/wifi/p2p_supplicant_manual.conf \
-    vendor/htc/ruby/proprietary/TQS_D_1.7.ini:system/etc/wifi/TQS_D_1.7.ini \
-    vendor/htc/ruby/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 # audio (copied from shooter, some of these arent present in stock ics)
 PRODUCT_COPY_FILES += \
@@ -188,7 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
     vendor/htc/ruby/proprietary/libaudiopolicy.so:system/lib/libaudiopolicy.so \
 
-# ril libs
+# ril
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libril.so:system/lib/libril.so \
     vendor/htc/ruby/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
@@ -201,10 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
     vendor/htc/ruby/proprietary/libcommondefs.so:system/lib/libcommondefs.so \
     vendor/htc/ruby/proprietary/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so
-
-# temp modules
-PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/kineto_gan.ko:system/lib/modules/kineto_gan.ko
 
 # Did not update these with ics leak
 #PRODUCT_COPY_FILES += \
