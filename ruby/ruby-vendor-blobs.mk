@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/htcbatt:system/bin/htcbatt \
     vendor/htc/ruby/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
+    vendor/htc/ruby/proprietary/ks:system/bin/ks \
+    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
     vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/lsc_camera:system/bin/lsc_camera \
@@ -48,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/thermald:system/bin/thermald \
     vendor/htc/ruby/proprietary/uimqc:system/bin/uimqc \
     vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
-#    vendor/htc/ruby/proprietary/ks:system/bin/ks \
-#    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 
 # xbin
