@@ -30,19 +30,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/akmd:system/bin/akmd \
     vendor/htc/ruby/proprietary/awb_camera:system/bin/awb_camera \
-    vendor/htc/ruby/proprietary/calibrator:system/bin/calibrator \
     vendor/htc/ruby/proprietary/charging:system/bin/charging \
-    vendor/htc/ruby/proprietary/dhcpcd:system/bin/dhcpcd \
     vendor/htc/ruby/proprietary/ewtzmud:system/bin/ewtzmud \
     vendor/htc/ruby/proprietary/hdmid:system/bin/hdmid \
-    vendor/htc/ruby/proprietary/hostapd:system/bin/hostapd \
     vendor/htc/ruby/proprietary/htcbatt:system/bin/htcbatt \
     vendor/htc/ruby/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/ruby/proprietary/ipd:system/bin/ipd \
     vendor/htc/ruby/proprietary/iw:system/bin/iw \
     vendor/htc/ruby/proprietary/initial_regdom.sh:system/bin/initial_regdom.sh \
-    vendor/htc/ruby/proprietary/ks:system/bin/ks \
-    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
     vendor/htc/ruby/proprietary/load-modem.sh:system/bin/load-modem.sh \
     vendor/htc/ruby/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/ruby/proprietary/lsc_camera:system/bin/lsc_camera \
@@ -59,12 +54,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254 \
     vendor/htc/ruby/proprietary/thermald:system/bin/thermald \
     vendor/htc/ruby/proprietary/uimqc:system/bin/uimqc \
-    vendor/htc/ruby/proprietary/wpa_cli:system/bin/wpa_cli \
-    vendor/htc/ruby/proprietary/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 #    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
+#    vendor/htc/ruby/proprietary/calibrator:system/bin/calibrator \
+#    vendor/htc/ruby/proprietary/dhcpcd:system/bin/dhcpcd \
+#    vendor/htc/ruby/proprietary/hostapd:system/bin/hostapd \
+#    vendor/htc/ruby/proprietary/wpa_cli:system/bin/wpa_cli \
+#    vendor/htc/ruby/proprietary/wpa_supplicant:system/bin/wpa_supplicant \
 
+#    vendor/htc/ruby/proprietary/ks:system/bin/ks \
+#    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
 # xbin
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/wireless_modem:system/xbin/wireless_modem \
@@ -146,9 +146,9 @@ PRODUCT_COPY_FILES += \
 # etc/dhcpcd
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/dhcpcd-run-hooks:system/etc/dhcpcd-run-hooks \
-    vendor/htc/ruby/proprietary/dhcpcd.conf:system/etc/dhcpcd.conf \
     vendor/htc/ruby/proprietary/20-dns.conf:system/etc/dhcpcd-hooks/20-dns.conf \
     vendor/htc/ruby/proprietary/95-configured:system/etc/dhcpcd-hooks/95-configured
+#    vendor/htc/ruby/proprietary/dhcpcd.conf:system/etc/dhcpcd.conf \
 
 # etc/iproute2
 PRODUCT_COPY_FILES += \
@@ -158,9 +158,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/ip-up-vpn:system/etc/ppp/ip-up-vpn
 
-# vendor/firmware
+# nfc
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/htc/ruby/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/htc/ruby/proprietary/libpn544_fw.so:system/lib/libpn544_fw.so
+
+# vendor library
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/libqc-opt.so:system/lib/libqc-opt.so
 
 #
 # lib
