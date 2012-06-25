@@ -57,14 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 #    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
-#    vendor/htc/ruby/proprietary/calibrator:system/bin/calibrator \
-#    vendor/htc/ruby/proprietary/dhcpcd:system/bin/dhcpcd \
-#    vendor/htc/ruby/proprietary/hostapd:system/bin/hostapd \
-#    vendor/htc/ruby/proprietary/wpa_cli:system/bin/wpa_cli \
-#    vendor/htc/ruby/proprietary/wpa_supplicant:system/bin/wpa_supplicant \
 
+## Kickstart
+#PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/ks:system/bin/ks \
-#    vendor/htc/ruby/proprietary/ks:root/system/bin/ks \
+#    vendor/htc/ruby/proprietary/ks:root/system/bin/ks
+
 # xbin
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/wireless_modem:system/xbin/wireless_modem \
@@ -128,7 +126,6 @@ PRODUCT_COPY_FILES += \
 
 # etc/wifi
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/htc/ruby/proprietary/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
     vendor/htc/ruby/proprietary/p2p_supplicant_manual.conf:system/etc/wifi/p2p_supplicant_manual.conf \
     vendor/htc/ruby/proprietary/TQS_D_1.7.ini:system/etc/wifi/TQS_D_1.7.ini \
@@ -143,20 +140,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/main.conf:system/etc/bluetooth/main.conf \
     vendor/htc/ruby/proprietary/network.conf:system/etc/bluetooth/network.conf
 
-# etc/dhcpcd
+# custom dhcpcd hook
 PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/dhcpcd-run-hooks:system/etc/dhcpcd-run-hooks \
-    vendor/htc/ruby/proprietary/20-dns.conf:system/etc/dhcpcd-hooks/20-dns.conf \
     vendor/htc/ruby/proprietary/95-configured:system/etc/dhcpcd-hooks/95-configured
-#    vendor/htc/ruby/proprietary/dhcpcd.conf:system/etc/dhcpcd.conf \
 
 # etc/iproute2
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/rt_tables:system/etc/iproute2/rt_tables
-
-# etc/ppp
-PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/ip-up-vpn:system/etc/ppp/ip-up-vpn
 
 # nfc
 PRODUCT_COPY_FILES += \
@@ -226,6 +216,7 @@ PRODUCT_COPY_FILES += \
 
 # temp
 PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
     vendor/htc/ruby/proprietary/gps.ruby.so:system/lib/hw/gps.ruby.so \
     vendor/htc/ruby/proprietary/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
     vendor/htc/ruby/proprietary/libcommondefs.so:system/lib/libcommondefs.so \
