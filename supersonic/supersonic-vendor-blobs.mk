@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/supersonic/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/supersonic/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/supersonic/proprietary/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/htc/supersonic/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/supersonic/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/supersonic/proprietary/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
