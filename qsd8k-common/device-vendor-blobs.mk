@@ -31,3 +31,9 @@ PRODUCT_COPY_FILES += \
 # Vendor library
 PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/libqc-opt.so:system/lib/libqc-opt.so
+
+# Media
+PRODUCT_COPY_FILES += \
+    vendor/htc/qsd8k-common/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/htc/qsd8k-common/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/htc/qsd8k-common/proprietary/libwvm.so:system/vendor/lib/libwvm.so
