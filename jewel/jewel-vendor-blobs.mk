@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/jewel/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/jewel/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/jewel/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/jewel/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
   vendor/htc/jewel/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/jewel/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
