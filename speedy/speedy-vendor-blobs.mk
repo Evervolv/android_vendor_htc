@@ -18,8 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
-#    vendor/htc/speedy/proprietary/librpc.so:obj/lib/librpc.so
-#    vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
 
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
@@ -71,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar \
     vendor/htc/speedy/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/htc/speedy/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/speedy/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
