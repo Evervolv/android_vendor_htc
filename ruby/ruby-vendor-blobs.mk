@@ -59,9 +59,9 @@ PRODUCT_COPY_FILES += \
 #    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
 
 ## Kickstart
-#PRODUCT_COPY_FILES += \
-#    vendor/htc/ruby/proprietary/ks:system/bin/ks \
-#    vendor/htc/ruby/proprietary/ks:root/system/bin/ks
+PRODUCT_COPY_FILES += \
+    vendor/htc/ruby/proprietary/ks:system/bin/ks \
+    vendor/htc/ruby/proprietary/ks:root/system/bin/ks
 
 # xbin
 PRODUCT_COPY_FILES += \
