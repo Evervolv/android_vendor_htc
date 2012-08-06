@@ -168,7 +168,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/ruby/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ruby/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/ruby/proprietary/libGLESv2S3D_adreno200.so:system/lib/libGLESv2S3D_adreno200.so \
     vendor/htc/ruby/proprietary/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/htc/ruby/proprietary/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/htc/ruby/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/ruby/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/ruby/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
