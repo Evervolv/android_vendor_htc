@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
+  vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/pyramid/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
