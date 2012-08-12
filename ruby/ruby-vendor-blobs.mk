@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/qmuxd:system/bin/qmuxd \
     vendor/htc/ruby/proprietary/ramdump-9K.sh:system/bin/ramdump-9K.sh \
     vendor/htc/ruby/proprietary/ramdump2sd-9K.sh:system/bin/ramdump2sd-9K.sh \
-    vendor/htc/ruby/proprietary/rild:system/bin/rild \
     vendor/htc/ruby/proprietary/rmt_storage:system/bin/rmt_storage \
     vendor/htc/ruby/proprietary/snd3254:system/bin/snd3254 \
     vendor/htc/ruby/proprietary/thermald:system/bin/thermald \
@@ -57,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/zchgd:system/bin/zchgd
 #    vendor/htc/ruby/proprietary/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 #    vendor/htc/ruby/proprietary/htcfs:system/bin/htcfs \
+#    vendor/htc/ruby/proprietary/rild:system/bin/rild \
 
 ## Kickstart
 PRODUCT_COPY_FILES += \
