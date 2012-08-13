@@ -71,15 +71,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/htc/ruby/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-    vendor/htc/ruby/proprietary/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/htc/ruby/proprietary/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/htc/ruby/proprietary/protocols:system/etc/firmware/protocols \
     vendor/htc/ruby/proprietary/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/htc/ruby/proprietary/vac_config.ini:system/etc/firmware/vac_config.ini \
     vendor/htc/ruby/proprietary/version:system/etc/firmware/version \
-    vendor/htc/ruby/proprietary/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/htc/ruby/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/htc/ruby/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/ruby/proprietary/WL127x_2.0_2.25.bts:system/etc/firmware/WL127x_2.0_2.25.bts
 
 # etc/firmware/ti-connectivity
@@ -125,11 +120,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg
 
 # etc/wifi
-PRODUCT_COPY_FILES += \
-    vendor/htc/ruby/proprietary/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
-    vendor/htc/ruby/proprietary/p2p_supplicant_manual.conf:system/etc/wifi/p2p_supplicant_manual.conf \
-    vendor/htc/ruby/proprietary/TQS_D_1.7.ini:system/etc/wifi/TQS_D_1.7.ini \
-    vendor/htc/ruby/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+#PRODUCT_COPY_FILES += \
+#    vendor/htc/ruby/proprietary/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
+#    vendor/htc/ruby/proprietary/p2p_supplicant_manual.conf:system/etc/wifi/p2p_supplicant_manual.conf \
+#    vendor/htc/ruby/proprietary/TQS_D_1.7.ini:system/etc/wifi/TQS_D_1.7.ini \
+#    vendor/htc/ruby/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 # etc/bluetooth
 PRODUCT_COPY_FILES += \
