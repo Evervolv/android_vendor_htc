@@ -1,0 +1,38 @@
+Header, KIM_soundeffet_20120608
+## Group for phone ##
+Phone_Default,/system/etc/soundimage/Sound_Original.txt
+Phone_Handset_Dualmic,/system/etc/soundimage/Sound_Phone_Original_REC.txt
+Phone_Speaker_Dualmic,/system/etc/soundimage/Sound_Phone_Original_SPK.txt
+Phone_Headset,/system/etc/soundimage/Sound_Phone_Original_HP.txt
+Phone_HAC,/system/etc/soundimage/Sound_Phone_Original_REC.txt
+Phone_TTY,
+
+## Group for playback ## 
+Playback_Default,/system/etc/soundimage/Sound_Original.txt
+Playback_Speaker_Default,/system/etc/soundimage/Sound_Original_SPK.txt
+Playback_A_Headset_SRS,/system/etc/soundimage/Sound_Original.txt
+Playback_A_Speaker_SRS,/system/etc/soundimage/Sound_Original.txt
+Playback_V_Headset_SRS,/system/etc/soundimage/Sound_Original.txt
+Playback_V_Speaker_SRS,/system/etc/soundimage/Sound_Original.txt
+Playback_A_EQ_Bass Booster,/system/etc/soundimage/Sound_Bass_Booster.txt
+Playback_A_EQ_Blues,/system/etc/soundimage/Sound_Blues.txt
+Playback_A_EQ_Classical,/system/etc/soundimage/Sound_Classical.txt
+Playback_A_EQ_Country,/system/etc/soundimage/Sound_Country.txt
+Playback_A_EQ_Jazz,/system/etc/soundimage/Sound_Jazz.txt
+Playback_A_EQ_Latin,/system/etc/soundimage/Sound_Latin.txt
+Playback_A_EQ_New age,/system/etc/soundimage/Sound_New_Age.txt
+Playback_A_EQ_Piano,/system/etc/soundimage/Sound_Piano.txt
+Playback_A_EQ_Pop,/system/etc/soundimage/Sound_Pop.txt
+Playback_A_EQ_R&B,/system/etc/soundimage/Sound_R_B.txt
+Playback_A_EQ_Rock,/system/etc/soundimage/Sound_Rock.txt
+Playback_A_EQ_Treble Booster,/system/etc/soundimage/Sound_Treble_Booster.txt
+Playback_A_EQ_Vocal Booster,/system/etc/soundimage/Sound_Vocal_Booster.txt
+
+## Group for recording ##
+Record_Default,/system/etc/soundimage/Sound_Original_Recording.txt
+Record_V_Mono,/system/etc/soundimage/Sound_Recording.txt
+Record_V_IMIC_Landscape_Stereo,/system/etc/soundimage/Sound_Rec_Landscape.txt
+Record_V_IMIC_Protrait_Stereo,/system/etc/soundimage/Sound_Rec_Portrait.txt
+Record_A_IMIC_Mono,/system/etc/soundimage/Sound_recording_IMIC_voice_mono.txt
+Record_A_EMIC_Mono,
+
