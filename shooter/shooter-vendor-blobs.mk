@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/htcbatt:/system/bin/htcbatt \
-    vendor/htc/shooter/proprietary/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/mpdecision:/system/bin/mpdecision \
     vendor/htc/shooter/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/qmuxd:/system/bin/qmuxd \
@@ -86,23 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/shooter/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/shooter/proprietary/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
-    vendor/htc/shooter/proprietary/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
-    vendor/htc/shooter/proprietary/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
-    vendor/htc/shooter/proprietary/wimax_mtd:/system/bin/wimax_mtd \
-    vendor/htc/shooter/proprietary/sequansd:/system/bin/sequansd \
-    vendor/htc/shooter/proprietary/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
-    vendor/htc/shooter/proprietary/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
-    vendor/htc/shooter/proprietary/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
-    vendor/htc/shooter/proprietary/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
-    vendor/htc/shooter/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
-    vendor/htc/shooter/proprietary/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
     vendor/htc/shooter/proprietary/sound8x60:/system/bin/sound8x60 \
-    vendor/htc/shooter/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
-    vendor/htc/shooter/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
-    vendor/htc/shooter/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/shooter/proprietary/ip:/system/bin/ip \
-    vendor/htc/shooter/proprietary/wimax.jar:/system/framework/wimax.jar \
     vendor/htc/shooter/proprietary/3D_calibration:/system/bin/3D_calibration \
-    vendor/htc/shooter/proprietary/3D_calibration_main:/system/bin/3D_calibration_main \
-    vendor/htc/shooter/proprietary/wimaxDaemon:/system/bin/wimaxDaemon
+    vendor/htc/shooter/proprietary/3D_calibration_main:/system/bin/3D_calibration_main
