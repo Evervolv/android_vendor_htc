@@ -16,8 +16,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/ruby/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ruby/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/htc/ruby/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ruby/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/ruby/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
@@ -194,15 +192,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libpbmlib.so:system/lib/libpbmlib.so
 #    vendor/htc/ruby/proprietary/libpbmlib_fusion.so:system/lib/libpbmlib_fusion.so
 
-# audio (copied from shooter, some of these arent present in stock ics)
+# audio (acdb(loader,mapper),audioalsa from shooter)
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/libaudcal.so:system/lib/libaudcal.so \
-    vendor/htc/ruby/proprietary/libaudio.so:system/lib/libaudio.so \
     vendor/htc/ruby/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/htc/ruby/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/ruby/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/htc/ruby/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
-    vendor/htc/ruby/proprietary/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/htc/ruby/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so
 
 # ril
 PRODUCT_COPY_FILES += \
