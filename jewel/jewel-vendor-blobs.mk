@@ -17,19 +17,16 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/htc/jewel/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 	vendor/htc/jewel/proprietary/lib/libril.so:obj/lib/libril.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/jewel/proprietary/bin/akmd:system/bin/akmd \
-  vendor/htc/jewel/proprietary/bin/awb_camera:system/bin/awb_camera \
   vendor/htc/jewel/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-  vendor/htc/jewel/proprietary/bin/cam_ins_spmo:system/bin/cam_ins_spmo \
   vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
   vendor/htc/jewel/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/jewel/proprietary/bin/hdmid:system/bin/hdmid \
-  vendor/htc/jewel/proprietary/bin/hostapd:system/bin/hostapd \
-  vendor/htc/jewel/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
   vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/jewel/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/jewel/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -43,8 +40,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/jewel/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/jewel/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/jewel/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/jewel/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-  vendor/htc/jewel/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
   vendor/htc/jewel/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/jewel/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/jewel/proprietary/lib/libimu.so:system/lib/libimu.so \
@@ -57,11 +54,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
-  vendor/htc/jewel/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
   vendor/htc/jewel/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/jewel/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/jewel/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
-  vendor/htc/jewel/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/jewel/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
   vendor/htc/jewel/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
   vendor/htc/jewel/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -79,10 +73,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/jewel/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/jewel/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-  vendor/htc/jewel/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
   vendor/htc/jewel/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/jewel/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/jewel/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
@@ -113,7 +105,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/jewel/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/jewel/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/jewel/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
   vendor/htc/jewel/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
-  vendor/htc/jewel/proprietary/lib/hw/nfc.jet.so:system/lib/hw/nfc.jet.so
+  vendor/htc/jewel/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
+  vendor/htc/jewel/proprietary/lib/hw/nfc.jet.so:system/lib/hw/nfc.jet.so \
+  vendor/htc/jewel/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so
