@@ -31,8 +31,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/jewel/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/jewel/proprietary/bin/netsharing:system/bin/netsharing \
-  vendor/htc/jewel/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/jewel/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/jewel/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/jewel/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/jewel/proprietary/bin/zchgd:system/bin/zchgd \
   vendor/htc/jewel/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/jewel/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/jewel/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/jewel/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
   vendor/htc/jewel/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/jewel/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/jewel/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
   vendor/htc/jewel/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/jewel/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-  vendor/htc/jewel/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
   vendor/htc/jewel/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/jewel/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
