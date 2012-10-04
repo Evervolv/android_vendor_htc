@@ -113,5 +113,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
   vendor/htc/jewel/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
   vendor/htc/jewel/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-  vendor/htc/jewel/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-  vendor/htc/jewel/proprietary/lib/modules/prima_wlan.ko:system/lib/modules/prima_wlan.ko
+  vendor/htc/jewel/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
