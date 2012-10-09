@@ -17,8 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/htc/jewel/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-	vendor/htc/jewel/proprietary/lib/libril.so:obj/lib/libril.so
+	vendor/htc/jewel/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -130,7 +129,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/jewel/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/jewel/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-  vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/jewel/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/jewel/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/jewel/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
