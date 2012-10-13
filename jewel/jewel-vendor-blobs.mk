@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
   vendor/htc/jewel/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
   vendor/htc/jewel/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+  vendor/htc/jewel/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/jewel/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
   vendor/htc/jewel/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
   vendor/htc/jewel/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
