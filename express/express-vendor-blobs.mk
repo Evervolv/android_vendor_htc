@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/express/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/express/proprietary/libui.so:/system/lib/libui.so \
     vendor/htc/express/proprietary/gps.express.so:/system/lib/hw/gps.express.so \
-    vendor/htc/express/proprietary/hwcomposer.default.so:/system/lib/hw/hwcomposer.default.so \
+    vendor/htc/express/proprietary/hwcomposer.msm7x30.so:/system/lib/hw/hwcomposer.msm7x30.so \
     vendor/htc/express/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/express/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/express/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
