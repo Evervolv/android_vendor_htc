@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/speedy/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/speedy/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/speedy/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/speedy/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/speedy/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
@@ -70,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar \
-    vendor/htc/speedy/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/speedy/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/speedy/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -79,8 +77,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/record:/system/bin/record \
     vendor/htc/speedy/proprietary/recordvideo:/system/bin/recordvideo \
     vendor/htc/speedy/proprietary/libcameraface.so:/system/lib/libcameraface.so \
-    vendor/htc/speedy/proprietary/libcamerapp.so:/system/lib/libcamerapp.so
-#    vendor/htc/speedy/proprietary/gps.speedy.so:/system/lib/hw/gps.speedy.so \
-#    vendor/htc/speedy/proprietary/librpc.so:/system/lib/librpc.so
-#    vendor/htc/speedy/proprietary/libaudio.so:/system/lib/libaudio.so \
-#    vendor/htc/speedy/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
+    vendor/htc/speedy/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
+    vendor/htc/speedy/proprietary/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
+    vendor/htc/speedy/proprietary/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
+    vendor/htc/speedy/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/speedy/proprietary/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
+    vendor/htc/speedy/proprietary/camera.msm7x30.so:/system/lib/hw/camera.msm7x30.so \
+    vendor/htc/speedy/proprietary/libwvm.so:/system/lib/libwvm.so \
+    vendor/htc/speedy/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
+    vendor/htc/speedy/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so
+
+
+
+
+
