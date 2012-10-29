@@ -26,9 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/speedy/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/speedy/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/speedy/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/speedy/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/speedy/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/htc/speedy/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/speedy/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/speedy/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
