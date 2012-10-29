@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
 
 # Ril
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \
     vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
@@ -114,13 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/primoc/proprietary/lib/libcneapiclient.so:/system/lib/libcneapiclient.so \
-    vendor/htc/primoc/proprietary/lib/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
-    vendor/htc/primoc/proprietary/lib/libnetmonitor.so:/system/lib/libnetmonitor.so \
-    vendor/htc/primoc/proprietary/lib/libtcpfinaggr.so:/system/lib/libtcpfinaggr.so \
-    vendor/htc/primoc/proprietary/lib/pp_proc_plugin.so:/system/lib/pp_proc_plugin.so \
-    vendor/htc/primoc/proprietary/lib/qnet-plugin.so:/system/lib/qnet-plugin.so \
-    vendor/htc/primoc/proprietary/lib/tcp-connections.so:/system/lib/tcp-connections.so \
     vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primoc/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/htc/primoc/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
