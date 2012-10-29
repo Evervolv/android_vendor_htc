@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/express/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/express/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/express/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/express/proprietary/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/express/proprietary/libdsprofile.so:/system/lib/libdsprofile.so \
     vendor/htc/express/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/express/proprietary/libdsutils.so:/system/lib/libdsutils.so \
@@ -97,18 +96,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/express/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
     vendor/htc/express/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
     vendor/htc/express/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-    vendor/htc/express/proprietary/libcneapiclient.so:/system/lib/libcneapiclient.so \
-    vendor/htc/express/proprietary/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
     vendor/htc/express/proprietary/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/htc/express/proprietary/libdnshostprio.so:/system/lib/libdnshostprio.so \
     vendor/htc/express/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/express/proprietary/libmmosal.so:system/lib/libmmosal.so \
     vendor/htc/express/proprietary/libmmparser.so:system/lib/libmmparser.so \
     vendor/htc/express/proprietary/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/htc/express/proprietary/libnetmonitor.so:/system/lib/libnetmonitor.so \
     vendor/htc/express/proprietary/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/htc/express/proprietary/libtcpfinaggr.so:/system/lib/libtcpfinaggr.so \
-    vendor/htc/express/proprietary/pp_proc_plugin.so:/system/lib/pp_proc_plugin.so \
-    vendor/htc/express/proprietary/qnet-plugin.so:/system/lib/qnet-plugin.so \
-    vendor/htc/express/proprietary/tcp-connections.so:/system/lib/tcp-connections.so \
     vendor/htc/express/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so
