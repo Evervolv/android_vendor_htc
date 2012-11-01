@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar \
-    vendor/htc/speedy/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/speedy/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
@@ -86,8 +85,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libwvm.so:/system/lib/libwvm.so \
     vendor/htc/speedy/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
     vendor/htc/speedy/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so
-
-
-
-
-
