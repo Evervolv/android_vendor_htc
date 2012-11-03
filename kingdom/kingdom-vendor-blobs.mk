@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/kingdom/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/kingdom/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/kingdom/proprietary/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/kingdom/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/kingdom/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/kingdom/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D.so \
@@ -54,7 +55,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/kingdom/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
-    vendor/htc/kingdom/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/kingdom/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/kingdom/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/kingdom/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
@@ -90,11 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/kingdom/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
-# OMX
-PRODUCT_COPY_FILES += \
-    vendor/htc/kingdom/proprietary/lib/libQcomUI.so:system/lib/libQcomUI.so \
-    vendor/htc/kingdom/proprietary/lib/libtilerenderer.so:system/lib/libtilerenderer.so
-
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
@@ -105,8 +100,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/kingdom/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/kingdom/proprietary/lib/libv8.so:system/lib/libv8.so
-
-# Temp because I'm an idiot
-PRODUCT_COPY_FILES += \
-    vendor/htc/kingdom/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
-    vendor/htc/kingdom/proprietary/lib/hw/hwcomposer.msm7x30.so:/system/lib/hw/hwcomposer.msm7x30.so
