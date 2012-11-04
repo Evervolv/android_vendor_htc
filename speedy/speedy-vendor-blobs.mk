@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/speedy/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
@@ -75,13 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libposteffect.so:system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/record:/system/bin/record \
     vendor/htc/speedy/proprietary/recordvideo:/system/bin/recordvideo \
-    vendor/htc/speedy/proprietary/libcameraface.so:/system/lib/libcameraface.so \
-    vendor/htc/speedy/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
-    vendor/htc/speedy/proprietary/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
-    vendor/htc/speedy/proprietary/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
-    vendor/htc/speedy/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
-    vendor/htc/speedy/proprietary/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
-    vendor/htc/speedy/proprietary/camera.msm7x30.so:/system/lib/hw/camera.msm7x30.so \
+    vendor/htc/speedy/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/speedy/proprietary/libwvm.so:/system/lib/libwvm.so \
     vendor/htc/speedy/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
     vendor/htc/speedy/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so
