@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for vivow
@@ -32,15 +31,21 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/vivow/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/vivow/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/vivow/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/vivow/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/vivow/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/vivow/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/htc/vivow/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vivow/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vivow/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/vivow/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/vivow/proprietary/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/vivow/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/vivow/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
+    vendor/htc/vivow/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/vivow/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
+    vendor/htc/vivow/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vivow/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/vivow/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivow/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivow/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivow/proprietary/libgemini.so:/system/lib/libgemini.so \
