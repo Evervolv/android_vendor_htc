@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/jewel/proprietary/bin/bma150_usr:system/bin/bma150_usr \
   vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/jewel/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/jewel/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/jewel/proprietary/bin/mpdecision:system/bin/mpdecision \
