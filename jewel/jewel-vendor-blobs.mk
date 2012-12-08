@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/jewel/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/jewel/proprietary/lib/hw/nfc.jet.so:system/lib/hw/nfc.jet.so \
   vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
   vendor/htc/jewel/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -74,12 +73,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/jewel/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/jewel/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/jewel/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/jewel/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-  vendor/htc/jewel/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/jewel/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-  vendor/htc/jewel/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/jewel/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/jewel/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/jewel/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/jewel/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
