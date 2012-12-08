@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/jewel/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/jewel/proprietary/lib/libidl.so:system/lib/libidl.so \
+  vendor/htc/jewel/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/jewel/proprietary/lib/libqdi.so:system/lib/libqdi.so \
   vendor/htc/jewel/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/jewel/proprietary/lib/libqmi.so:system/lib/libqmi.so \
