@@ -54,7 +54,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vivow/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vivow/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/vivow/proprietary/libims_ril.so:/system/lib/libims_ril.so \
-    vendor/htc/vivow/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-    vendor/htc/vivow/proprietary/libril_ims.so:/system/lib/libreference-ril.so \
-    vendor/htc/vivow/proprietary/libril.so:/system/lib/libril.so
+    vendor/htc/vivow/proprietary/libims_ril.so:/system/lib/libims_ril.so
