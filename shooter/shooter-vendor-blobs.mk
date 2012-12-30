@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
     vendor/htc/shooter/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/shooter/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/shooter/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/shooter/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
     vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
