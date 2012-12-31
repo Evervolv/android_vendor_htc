@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/ruby/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/ruby/proprietary/lib/hw/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
+  vendor/htc/ruby/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
