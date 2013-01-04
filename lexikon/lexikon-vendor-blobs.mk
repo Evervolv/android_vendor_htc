@@ -48,5 +48,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/lexikon/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/lexikon/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/htc/lexikon/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+	vendor/htc/lexikon/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/htc/lexikon/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
 	vendor/htc/lexikon/proprietary/lib/libims_ril.so:system/lib/libims_ril.so \
