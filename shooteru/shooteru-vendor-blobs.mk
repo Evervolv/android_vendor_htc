@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/htc/shooteru/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/shooteru/proprietary/libv8.so:system/lib/libv8.so \
-    vendor/htc/shooteru/proprietary/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
     vendor/htc/shooteru/proprietary/libmpl.so:system/lib/libmpl.so \
     vendor/htc/shooteru/proprietary/libmllite.so:system/lib/libmllite.so \
     vendor/htc/shooteru/proprietary/libmlplatform.so:system/lib/libmlplatform.so \
