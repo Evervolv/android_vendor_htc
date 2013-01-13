@@ -20,6 +20,29 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
+# Firmware blobs
+PRODUCT_COPY_FILES += \
+    vendor/htc/pyramid/proprietary/firmware/modem.b00:/system/vendor/firmware/modem.b00 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b01:/system/vendor/firmware/modem.b01 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b02:/system/vendor/firmware/modem.b02 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b03:/system/vendor/firmware/modem.b03 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b04:/system/vendor/firmware/modem.b04 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b05:/system/vendor/firmware/modem.b05 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b06:/system/vendor/firmware/modem.b06 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b07:/system/vendor/firmware/modem.b07 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b08:/system/vendor/firmware/modem.b08 \
+    vendor/htc/pyramid/proprietary/firmware/modem.b09:/system/vendor/firmware/modem.b09 \
+    vendor/htc/pyramid/proprietary/firmware/modem.mdt:/system/vendor/firmware/modem.mdt \
+    vendor/htc/pyramid/proprietary/firmware/q6.b00:/system/vendor/firmware/q6.b00 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b01:/system/vendor/firmware/q6.b01 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b02:/system/vendor/firmware/q6.b02 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b03:/system/vendor/firmware/q6.b03 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b04:/system/vendor/firmware/q6.b04 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b05:/system/vendor/firmware/q6.b05 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b06:/system/vendor/firmware/q6.b06 \
+    vendor/htc/pyramid/proprietary/firmware/q6.b07:/system/vendor/firmware/q6.b07 \
+    vendor/htc/pyramid/proprietary/firmware/q6.mdt:/system/vendor/firmware/q6.mdt
+
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
