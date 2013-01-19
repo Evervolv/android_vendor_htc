@@ -32,9 +32,7 @@ PRODUCT_COPY_FILES += \
 # Wifi/BT firmware
 PRODUCT_COPY_FILES += \
     vendor/htc/kingdom/proprietary/etc/calibration:system/etc/calibration \
-    vendor/htc/kingdom/proprietary/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd:system/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd \
-    vendor/htc/kingdom/proprietary/etc/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
-    vendor/htc/kingdom/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin 
+    vendor/htc/kingdom/proprietary/etc/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
 
 # QCOM Drivers
 PRODUCT_COPY_FILES += \
