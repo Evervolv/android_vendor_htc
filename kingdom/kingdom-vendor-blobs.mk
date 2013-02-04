@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
 
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
+    vendor/htc/kingdom/proprietary/bin/akmd:/system/bin/akmd \
     vendor/htc/kingdom/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/kingdom/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/kingdom/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
