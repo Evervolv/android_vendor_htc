@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivow/proprietary/libcamera.so:/system/lib/libcamera.so \
+    vendor/htc/vivow/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/vivow/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivow/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivow/proprietary/libgemini.so:/system/lib/libgemini.so \
