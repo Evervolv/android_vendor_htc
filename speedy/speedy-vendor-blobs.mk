@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/record:/system/bin/record \
     vendor/htc/speedy/proprietary/recordvideo:/system/bin/recordvideo \
     vendor/htc/speedy/proprietary/libcamera.so:/system/lib/libcamera.so \
+    vendor/htc/speedy/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/speedy/proprietary/libwvm.so:/system/lib/libwvm.so \
     vendor/htc/speedy/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
     vendor/htc/speedy/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so
