@@ -58,4 +58,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivow/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
     vendor/htc/vivow/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+    vendor/htc/vivow/proprietary/lib/libril_ims.so:/system/lib/libril_ims.so \
     vendor/htc/vivow/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
