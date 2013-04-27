@@ -16,43 +16,46 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/vivow/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for vivow
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivow/proprietary/akmd:/system/bin/akmd \
-    vendor/htc/vivow/proprietary/awb_camera:/system/bin/awb_camera \
-    vendor/htc/vivow/proprietary/bma150_usr:/system/bin/bma150_usr \
-    vendor/htc/vivow/proprietary/dmagent:/system/bin/dmagent \
-    vendor/htc/vivow/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/vivow/proprietary/logcat2:/system/bin/logcat2 \
-    vendor/htc/vivow/proprietary/lsc_camera:/system/bin/lsc_camera \
-    vendor/htc/vivow/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vivow/proprietary/snd3254:/system/bin/snd3254 \
-    vendor/htc/vivow/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
-    vendor/htc/vivow/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/vivow/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
-    vendor/htc/vivow/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/vivow/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/vivow/proprietary/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/htc/vivow/proprietary/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/vivow/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/vivow/proprietary/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/vivow/proprietary/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/vivow/proprietary/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/vivow/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-    vendor/htc/vivow/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
-    vendor/htc/vivow/proprietary/libOpenSLES.so:/system/lib/libOpenSLES.so \
-    vendor/htc/vivow/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/vivow/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/vivow/proprietary/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/vivow/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
-    vendor/htc/vivow/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/vivow/proprietary/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/vivow/proprietary/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/vivow/proprietary/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/vivow/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/vivow/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/vivow/proprietary/libims_ril.so:/system/lib/libims_ril.so
+    vendor/htc/vivow/proprietary/bin/akmd:/system/bin/akmd \
+    vendor/htc/vivow/proprietary/bin/awb_camera:/system/bin/awb_camera \
+    vendor/htc/vivow/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
+    vendor/htc/vivow/proprietary/bin/dmagent:/system/bin/dmagent \
+    vendor/htc/vivow/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
+    vendor/htc/vivow/proprietary/bin/logcat2:/system/bin/logcat2 \
+    vendor/htc/vivow/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
+    vendor/htc/vivow/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+    vendor/htc/vivow/proprietary/bin/snd3254:/system/bin/snd3254 \
+    vendor/htc/vivow/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
+    vendor/htc/vivow/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/htc/vivow/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/vivow/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/vivow/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/vivow/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/htc/vivow/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/vivow/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so \
+    vendor/htc/vivow/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/vivow/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
+    vendor/htc/vivow/proprietary/lib/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
+    vendor/htc/vivow/proprietary/lib/libOpenSLES.so:/system/lib/libOpenSLES.so \
+    vendor/htc/vivow/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/vivow/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/vivow/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/vivow/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
+    vendor/htc/vivow/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
+    vendor/htc/vivow/proprietary/lib/libchromatix_s5k3h1gx_preview.so:/system/lib/libchromatix_s5k3h1gx_preview.so \
+    vendor/htc/vivow/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:/system/lib/libchromatix_s5k3h1gx_default_video.so \
+    vendor/htc/vivow/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
+    vendor/htc/vivow/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/vivow/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/vivow/proprietary/lib/libims_ril.so:/system/lib/libims_ril.so \
+    vendor/htc/vivow/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
+    vendor/htc/vivow/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/vivow/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vivow/proprietary/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/vivow/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+    vendor/htc/vivow/proprietary/lib/libril_ims.so:/system/lib/libril_ims.so \
+    vendor/htc/vivow/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
