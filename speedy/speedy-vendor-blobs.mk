@@ -25,33 +25,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/bin/apph:/system/bin/apph \
     vendor/htc/speedy/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/speedy/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
-    vendor/htc/speedy/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
     vendor/htc/speedy/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/speedy/proprietary/bin/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/speedy/proprietary/bin/record:/system/bin/record \
     vendor/htc/speedy/proprietary/bin/recordvideo:/system/bin/recordvideo \
     vendor/htc/speedy/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/speedy/proprietary/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
-    vendor/htc/speedy/proprietary/bin/sequansd:/system/bin/sequansd \
     vendor/htc/speedy/proprietary/bin/spkamp:/system/bin/spkamp \
-    vendor/htc/speedy/proprietary/bin/wimax_mtd:/system/bin/wimax_mtd \
-    vendor/htc/speedy/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
-    vendor/htc/speedy/proprietary/bin/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
-    vendor/htc/speedy/proprietary/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
-    vendor/htc/speedy/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
-    vendor/htc/speedy/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
-    vendor/htc/speedy/proprietary/bin/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
-    vendor/htc/speedy/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
-    vendor/htc/speedy/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
     vendor/htc/speedy/proprietary/etc/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/speedy/proprietary/etc/AudioBTID.csv:/system/etc/AudioBTID.csv \
-    vendor/htc/speedy/proprietary/etc/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
-    vendor/htc/speedy/proprietary/etc/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/speedy/proprietary/etc/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
-    vendor/htc/speedy/proprietary/etc/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
-    vendor/htc/speedy/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
     vendor/htc/speedy/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/htc/speedy/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
@@ -85,3 +68,27 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so
 
+# Wimax props
+PRODUCT_COPY_FILES += \
+    vendor/htc/speedy/proprietary/bin/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
+    vendor/htc/speedy/proprietary/bin/dmagent:/system/bin/dmagent \
+    vendor/htc/speedy/proprietary/bin/sequansd:/system/bin/sequansd \
+    vendor/htc/speedy/proprietary/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
+    vendor/htc/speedy/proprietary/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
+    vendor/htc/speedy/proprietary/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
+    vendor/htc/speedy/proprietary/bin/wimaxDaemon:/system/bin/wimaxDaemon \
+    vendor/htc/speedy/proprietary/bin/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
+    vendor/htc/speedy/proprietary/bin/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
+    vendor/htc/speedy/proprietary/bin/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
+    vendor/htc/speedy/proprietary/bin/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
+    vendor/htc/speedy/proprietary/bin/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
+    vendor/htc/speedy/proprietary/bin/wimaxFactoryReset:/system/bin/wimaxFactoryReset \
+    vendor/htc/speedy/proprietary/bin/wimax_mtd:/system/bin/wimax_mtd \
+    vendor/htc/speedy/proprietary/bin/wimax_uart:/system/bin/wimax_uart \
+    vendor/htc/speedy/proprietary/etc/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
+    vendor/htc/speedy/proprietary/etc/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
+    vendor/htc/speedy/proprietary/etc/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
+    vendor/htc/speedy/proprietary/framework/wimax-api.jar:/system/framework/wimax-api.jar \
+    vendor/htc/speedy/proprietary/lib/libcryp98.so:/system/lib/libcryp98.so \
+    vendor/htc/speedy/proprietary/lib/libdmtree.so:/system/lib/libdmtree.so \
+    vendor/htc/speedy/proprietary/lib/libhtcdm.so:/system/lib/libhtcdm.so

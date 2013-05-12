@@ -12,6 +12,10 @@
 		<port>7771</port>
 		<maxClients>10</maxClients>
 	</server>
+
+	<network>
+		<eap-mtu>1265</eap-mtu>
+	</network>
 	
 	<bfh>
 		<repository>/data/wimax</repository>
