@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/speedy/proprietary/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/speedy/proprietary/lib/libidl.so:/system/lib/libidl.so \
-    vendor/htc/speedy/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/speedy/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/speedy/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
