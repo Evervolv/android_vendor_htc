@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/speedy/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/speedy/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/speedy/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/speedy/proprietary/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/speedy/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -65,19 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/htc/speedy/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/lib/hw/camera.default.so:/system/lib/hw/camera.default.so
-
-# RIL props
-PRODUCT_COPY_FILES += \
-    vendor/htc/speedy/proprietary/bin/netmgrd:/system/bin/netmgrd \
-    vendor/htc/speedy/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/speedy/proprietary/lib/libdll.so:/system/lib/libdll.so \
-    vendor/htc/speedy/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-    vendor/htc/speedy/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-    vendor/htc/speedy/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/speedy/proprietary/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
-    vendor/htc/speedy/proprietary/lib/libidl.so:/system/lib/libidl.so \
-    vendor/htc/speedy/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-    vendor/htc/speedy/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
 # Wimax props
 PRODUCT_COPY_FILES += \
