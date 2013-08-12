@@ -45,9 +45,7 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/htc/msm7x30-common/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-    vendor/htc/msm7x30-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/htc/msm7x30-common/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-    vendor/htc/msm7x30-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
+    vendor/htc/msm7x30-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
 
 # Misc
 PRODUCT_COPY_FILES += \
