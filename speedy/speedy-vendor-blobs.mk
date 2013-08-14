@@ -18,8 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/bin/apph:/system/bin/apph \
     vendor/htc/speedy/proprietary/bin/awb_camera:/system/bin/awb_camera \
     vendor/htc/speedy/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
-    vendor/htc/speedy/proprietary/bin/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/speedy/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/speedy/proprietary/bin/record:/system/bin/record \
     vendor/htc/speedy/proprietary/bin/recordvideo:/system/bin/recordvideo \
