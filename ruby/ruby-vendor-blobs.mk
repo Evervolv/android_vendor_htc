@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/ruby/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/ruby/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/ruby/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/ruby/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/ruby/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/ruby/proprietary/lib/libchromatix_mt9d015_default_video.so:system/lib/libchromatix_mt9d015_default_video.so \
