@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/lexikon/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/lexikon/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for lexikon
@@ -50,8 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/lexikon/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/lexikon/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/lexikon/proprietary/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/lexikon/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/lexikon/proprietary/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/htc/lexikon/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/lexikon/proprietary/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/lexikon/proprietary/libposteffect.so:system/lib/libposteffect.so \
+    vendor/htc/lexikon/proprietary/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/lexikon/proprietary/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
+    vendor/htc/lexikon/proprietary/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
+    vendor/htc/lexikon/proprietary/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/lexikon/proprietary/libwvm.so:/system/lib/libwvm.so \
     vendor/htc/lexikon/proprietary/libwvdrm_L3.so:/system/lib/libwvdrm_L3.so \
     vendor/htc/lexikon/proprietary/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
