@@ -28,8 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/lexikon/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/lexikon/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/lexikon/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/lexikon/proprietary/record:/system/bin/record \
-    vendor/htc/lexikon/proprietary/recordvideo:/system/bin/recordvideo \
     vendor/htc/lexikon/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/lexikon/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/lexikon/proprietary/AdieHWCodec_NEL.csv:/system/etc/AdieHWCodec_NEL.csv \
