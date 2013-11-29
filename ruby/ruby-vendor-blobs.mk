@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/ruby/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/ruby/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+  vendor/htc/ruby/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/ruby/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/ruby/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/ruby/proprietary/lib/hw/sensors.ruby.so:system/lib/hw/sensors.ruby.so \
