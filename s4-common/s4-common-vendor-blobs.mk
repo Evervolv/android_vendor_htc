@@ -18,13 +18,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
         vendor/htc/s4-common/proprietary/bin/akmd:/system/bin/akmd \
         vendor/htc/s4-common/proprietary/bin/charging:/system/bin/charging \
+        vendor/htc/s4-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/s4-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/s4-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/s4-common/proprietary/bin/netsharing:/system/bin/netsharing \
         vendor/htc/s4-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
-        vendor/htc/s4-common/proprietary/bin/zchgd:/system/bin/zchgd \
         vendor/htc/s4-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/s4-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/s4-common/proprietary/lib/hw/vendor-camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
@@ -53,6 +51,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/s4-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
         vendor/htc/s4-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+        vendor/htc/s4-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/s4-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/s4-common/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
         vendor/htc/s4-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -73,13 +72,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
+        vendor/htc/s4-common/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
+        vendor/htc/s4-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
-        vendor/htc/s4-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
-        vendor/htc/s4-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-        vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b00:/system/etc/firmware/wcnss.b00 \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b01:/system/etc/firmware/wcnss.b01 \
