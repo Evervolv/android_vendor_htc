@@ -12,4 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+    libaudioalsa
+
 $(call inherit-product, vendor/htc/msm7x30-common/device-vendor-blobs.mk)
